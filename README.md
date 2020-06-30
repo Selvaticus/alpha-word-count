@@ -42,6 +42,6 @@ Finished in: 276 ms
 - Also using Regex expression should take care of those special characters anyway.
 - I focused mainly on code without any unit tests, as the problem space was quite small and I could move faster and still be able to catch errors (I think)
 
-## problems
+## Problems
 
 - There might be a problem/bug with the counting of some words, I seem to be able to find less 'a' or 'A' than the word counter program. This is most likely due to the regex expression matches not being what I initially expected. But it could also be that I'm not keeping the sorted list correctly, and if that is the case than there are bigger problems because we can't garantuee that any of those words are actually the top x.
